@@ -18,3 +18,13 @@ Time: 15:1
 Phone Number: +919999482207
 Message: The sentiment signal for ADANIENT.NS has changed to Buy.
 --------------------
+Date: 5/9/2024
+Time: 15:55
+Phone Number: +919999482207
+Message: The sentiment signal for AMZN has changed to Buy.
+--------------------
+Date: 5/9/2024
+Time: 16:2
+Phone Number: +919999482207
+Message: The sentiment signal for AMZN has changed to Buy.
+--------------------

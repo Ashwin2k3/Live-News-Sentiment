@@ -100,11 +100,11 @@ def monitor_sentiment(stock_ticker, company_data, phone_number, check_interval=6
                 
                 # Check if the signal has changed
                 if new_signal != last_signal:
-                    st.write(f"Sentiment signal changed to: {new_signal}")
+                    st.write(f"Sentiment signal changed to: **{new_signal}**")
                     send_whatsapp_notification(stock_ticker, new_signal, phone_number)
                     last_signal = new_signal
                 else:
-                    st.write(f"No change in sentiment signal. Current signal: {new_signal}")
+                    st.write(f"No change in sentiment signal. Current signal: **{new_signal}**")
             else:
                 st.write("No descriptions found in the articles to analyze.")
         else:
